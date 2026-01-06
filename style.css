@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  position: relative;
+  background-color: blue;
+  color: white;
+}
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.menu > a {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+}
+#logo {
+  color: white;
+  padding: 10px;
+  font-size: 50px;
+  width: 40%;
+  margin: 10px;
+}
+.content {
+  background-color: blueviolet;
+}
+.card1 {
+  float: left;
+  width: 50%;
+  margin: 20px;
+}
+.card1 > button {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.card1 > p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card2 {
+  position: relative;
+  width: 40%;
+  float: right;
+  border: 3px solid #ccc;
+  padding: 40px;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+.card2 > h3 {
+  margin-top: 10px;
+}
+.card2 > p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card2 > button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 3px solid red;
+  color: white;
+  background-color: red;
+}
+.main {
+  background-color: #fff;
+  width: 100%;
+  float: left;
+}
+.NoiBat {
+  position: relative;
+  height: 300px;
+  border: #ccc;
+  padding: 15px;
+  margin-top: 250px;
+  background-color: gainsboro;
+}
+#Title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.NoiDung1 {
+  text-align: left;
+  border: 3px solid #ccc;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 100px;
+}
+.NoiDung1 > h4 {
+  margin-bottom: 10px;
+}
+.NoiDung2 {
+  text-align: left;
+  border: 3px solid #ccc;
+  background-color: #fff;
+  padding: 30px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 100px;
+  margin-left: 50px;
+}
+.NoiDung2 > h4 {
+  margin-bottom: 10px;
+}
+.NoiDung3 {
+  position: absolute;
+  text-align: left;
+  border: 3px solid #ccc;
+  background-color: #fff;
+  padding: 30px;
+  display: inline-block;
+  left: 15px;
+  top: 190px;
+  padding-left: 10px;
+  padding-right: 55px;
+}
+.NoiDung3 > h4 {
+  margin-bottom: 10px;
+}
+.GiangVien {
+  margin: 20px 20px 0px;
+}
+.GiangVien > h2 {
+  margin-bottom: 10px;
+}
+.GiangVien > p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.GiangVien > button {
+  border: 3px solid blue;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
